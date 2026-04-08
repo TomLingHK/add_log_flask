@@ -22,7 +22,7 @@ APP_CONST = {
 @app.route("/run", methods=['POST'])
 def main():
     """
-        dir_name(string): "/abc_project/debug/"
+        dir_name(string): "abc_project/debug/"
         file_name(string): "log_20260228.txt"
         content(string): "[20260228][INFO] Validate job complete without error."
     """
